@@ -20,6 +20,7 @@
 		8B1C4E5B2B86970A00917E26 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E5A2B86970A00917E26 /* CustomButton.swift */; };
 		8B1C4E5D2B869B4800917E26 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E5C2B869B4800917E26 /* Montserrat */; };
 		8B1C4E612B869C9300917E26 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E602B869C9300917E26 /* Font.swift */; };
+		8B1C4E632B86AABB00917E26 /* EnterMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8B1C4E5A2B86970A00917E26 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8B1C4E5C2B869B4800917E26 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
 		8B1C4E602B869C9300917E26 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMobileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				8B1C4E382B867FC800917E26 /* ContentView.swift */,
 				8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */,
 				8B1C4E562B86925500917E26 /* WelcomeView.swift */,
+				8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				8B1C4E612B869C9300917E26 /* Font.swift in Sources */,
 				8B1C4E5B2B86970A00917E26 /* CustomButton.swift in Sources */,
 				8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */,
+				8B1C4E632B86AABB00917E26 /* EnterMobileView.swift in Sources */,
 				8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
