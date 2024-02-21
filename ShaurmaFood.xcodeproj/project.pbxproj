@@ -14,6 +14,8 @@
 		8B1C4E492B86824700917E26 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E482B86824700917E26 /* Color.swift */; };
 		8B1C4E4C2B86856C00917E26 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */; };
 		8B1C4E512B868B1900917E26 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E502B868B1900917E26 /* logo.png */; };
+		8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */; };
+		8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E542B868CFF00917E26 /* CustomText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		8B1C4E4D2B8685AD00917E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B1C4E502B868B1900917E26 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		8B1C4E542B868CFF00917E26 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				8B1C4E382B867FC800917E26 /* ContentView.swift */,
+				8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				8B1C4E482B86824700917E26 /* Color.swift */,
+				8B1C4E542B868CFF00917E26 /* CustomText.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -193,6 +199,8 @@
 				8B1C4E392B867FC800917E26 /* ContentView.swift in Sources */,
 				8B1C4E372B867FC800917E26 /* ShaurmaFoodApp.swift in Sources */,
 				8B1C4E492B86824700917E26 /* Color.swift in Sources */,
+				8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */,
+				8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
