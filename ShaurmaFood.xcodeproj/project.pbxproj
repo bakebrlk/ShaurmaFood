@@ -11,6 +11,7 @@
 		8B1C4E392B867FC800917E26 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E382B867FC800917E26 /* ContentView.swift */; };
 		8B1C4E3B2B867FCA00917E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E3A2B867FCA00917E26 /* Assets.xcassets */; };
 		8B1C4E3E2B867FCA00917E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E3D2B867FCA00917E26 /* Preview Assets.xcassets */; };
+		8B1C4E492B86824700917E26 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E482B86824700917E26 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8B1C4E382B867FC800917E26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B1C4E3A2B867FCA00917E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1C4E3D2B867FCA00917E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B1C4E482B86824700917E26 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		8B1C4E462B86817900917E26 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				8B1C4E482B86824700917E26 /* Color.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				8B1C4E392B867FC800917E26 /* ContentView.swift in Sources */,
 				8B1C4E372B867FC800917E26 /* ShaurmaFoodApp.swift in Sources */,
+				8B1C4E492B86824700917E26 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
