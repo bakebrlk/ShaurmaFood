@@ -51,9 +51,11 @@
 		8B1C4E352B867FC800917E26 /* ShaurmaFood */ = {
 			isa = PBXGroup;
 			children = (
-				8B1C4E362B867FC800917E26 /* ShaurmaFoodApp.swift */,
+				8B1C4E472B86818000917E26 /* viewModel */,
+				8B1C4E462B86817900917E26 /* model */,
+				8B1C4E452B86816E00917E26 /* view */,
+				8B1C4E442B86816200917E26 /* main */,
 				8B1C4E382B867FC800917E26 /* ContentView.swift */,
-				8B1C4E3A2B867FCA00917E26 /* Assets.xcassets */,
 				8B1C4E3C2B867FCA00917E26 /* Preview Content */,
 			);
 			path = ShaurmaFood;
@@ -65,6 +67,36 @@
 				8B1C4E3D2B867FCA00917E26 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B1C4E442B86816200917E26 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C4E362B867FC800917E26 /* ShaurmaFoodApp.swift */,
+				8B1C4E3A2B867FCA00917E26 /* Assets.xcassets */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		8B1C4E452B86816E00917E26 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8B1C4E462B86817900917E26 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		8B1C4E472B86818000917E26 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
