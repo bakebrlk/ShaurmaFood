@@ -13,6 +13,7 @@
 		8B1C4E3E2B867FCA00917E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E3D2B867FCA00917E26 /* Preview Assets.xcassets */; };
 		8B1C4E492B86824700917E26 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E482B86824700917E26 /* Color.swift */; };
 		8B1C4E4C2B86856C00917E26 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */; };
+		8B1C4E512B868B1900917E26 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E502B868B1900917E26 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B1C4E482B86824700917E26 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		8B1C4E4D2B8685AD00917E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B1C4E502B868B1900917E26 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 				8B1C4E462B86817900917E26 /* model */,
 				8B1C4E452B86816E00917E26 /* view */,
 				8B1C4E442B86816200917E26 /* main */,
-				8B1C4E382B867FC800917E26 /* ContentView.swift */,
 				8B1C4E3C2B867FCA00917E26 /* Preview Content */,
 			);
 			path = ShaurmaFood;
@@ -88,6 +89,7 @@
 		8B1C4E452B86816E00917E26 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				8B1C4E382B867FC800917E26 /* ContentView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -110,6 +112,7 @@
 		8B1C4E4A2B86852E00917E26 /* source */ = {
 			isa = PBXGroup;
 			children = (
+				8B1C4E502B868B1900917E26 /* logo.png */,
 				8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */,
 			);
 			path = source;
@@ -173,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1C4E512B868B1900917E26 /* logo.png in Resources */,
 				8B1C4E4C2B86856C00917E26 /* Montserrat-Regular.ttf in Resources */,
 				8B1C4E3E2B867FCA00917E26 /* Preview Assets.xcassets in Resources */,
 				8B1C4E3B2B867FCA00917E26 /* Assets.xcassets in Resources */,
