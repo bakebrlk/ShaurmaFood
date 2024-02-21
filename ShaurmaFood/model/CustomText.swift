@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CustomText {
-    static func getText(text: String, size: CGFloat) -> some View{
+    static func getText(text: String, size: CGFloat, font: Font.Montserrat) -> some View{
         Text(text)
-            .font(.custom("Montserrat-Regular", size: size))
+            .font(.custom(font.rawValue, size: size))
     }
 }

@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct CustomButton {
-    static func btn(text: String, size: CGFloat, color: Color, action: ()) -> some View {
+    static func btn(text: String, size: CGFloat, color: Color, action: (), width: CGFloat, height: CGFloat) -> some View {
         Button {
             action
         } label: {
-            CustomText.getText(text: text, size: size)
+            CustomText.getText(text: text, size: size, font: .Regular)
+                .foregroundColor(.white)
         }
+        .frame(maxWidth: width, maxHeight: height)
         .background(color)
-        .cornerRadius(20)
+        .cornerRadius(height/2)
     }
 }

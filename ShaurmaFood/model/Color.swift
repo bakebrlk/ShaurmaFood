@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CustomColor: Decodable {
-    static let darkRedf = Color(hex: "#B82626")
+    static let darkRed = Color(hex: "#B82626")
     static let brightRed = Color(hex: "#E02222")
     static let blackishGrey = Color(hex: "#1D1D1D")
     static let warmWhite = Color(hex: "#FAFAFA")

@@ -12,10 +12,14 @@
 		8B1C4E3B2B867FCA00917E26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E3A2B867FCA00917E26 /* Assets.xcassets */; };
 		8B1C4E3E2B867FCA00917E26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E3D2B867FCA00917E26 /* Preview Assets.xcassets */; };
 		8B1C4E492B86824700917E26 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E482B86824700917E26 /* Color.swift */; };
-		8B1C4E4C2B86856C00917E26 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */; };
 		8B1C4E512B868B1900917E26 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E502B868B1900917E26 /* logo.png */; };
 		8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */; };
 		8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E542B868CFF00917E26 /* CustomText.swift */; };
+		8B1C4E572B86925500917E26 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E562B86925500917E26 /* WelcomeView.swift */; };
+		8B1C4E592B8692BA00917E26 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E582B8692BA00917E26 /* welcome.png */; };
+		8B1C4E5B2B86970A00917E26 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E5A2B86970A00917E26 /* CustomButton.swift */; };
+		8B1C4E5D2B869B4800917E26 /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 8B1C4E5C2B869B4800917E26 /* Montserrat */; };
+		8B1C4E612B869C9300917E26 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E602B869C9300917E26 /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +29,15 @@
 		8B1C4E3A2B867FCA00917E26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1C4E3D2B867FCA00917E26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B1C4E482B86824700917E26 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		8B1C4E4D2B8685AD00917E26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B1C4E502B868B1900917E26 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		8B1C4E542B868CFF00917E26 /* CustomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomText.swift; sourceTree = "<group>"; };
+		8B1C4E562B86925500917E26 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8B1C4E582B8692BA00917E26 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		8B1C4E5A2B86970A00917E26 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8B1C4E5C2B869B4800917E26 /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		8B1C4E602B869C9300917E26 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,7 @@
 			children = (
 				8B1C4E382B867FC800917E26 /* ContentView.swift */,
 				8B1C4E522B868B9D00917E26 /* SplashScreenView.swift */,
+				8B1C4E562B86925500917E26 /* WelcomeView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -104,6 +113,8 @@
 			children = (
 				8B1C4E482B86824700917E26 /* Color.swift */,
 				8B1C4E542B868CFF00917E26 /* CustomText.swift */,
+				8B1C4E5A2B86970A00917E26 /* CustomButton.swift */,
+				8B1C4E602B869C9300917E26 /* Font.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -118,10 +129,27 @@
 		8B1C4E4A2B86852E00917E26 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				8B1C4E502B868B1900917E26 /* logo.png */,
-				8B1C4E4B2B86856C00917E26 /* Montserrat-Regular.ttf */,
+				8B1C4E5F2B869B5F00917E26 /* Image */,
+				8B1C4E5E2B869B5500917E26 /* Font */,
 			);
 			path = source;
+			sourceTree = "<group>";
+		};
+		8B1C4E5E2B869B5500917E26 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C4E5C2B869B4800917E26 /* Montserrat */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8B1C4E5F2B869B5F00917E26 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8B1C4E582B8692BA00917E26 /* welcome.png */,
+				8B1C4E502B868B1900917E26 /* logo.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,8 +210,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1C4E5D2B869B4800917E26 /* Montserrat in Resources */,
 				8B1C4E512B868B1900917E26 /* logo.png in Resources */,
-				8B1C4E4C2B86856C00917E26 /* Montserrat-Regular.ttf in Resources */,
+				8B1C4E592B8692BA00917E26 /* welcome.png in Resources */,
 				8B1C4E3E2B867FCA00917E26 /* Preview Assets.xcassets in Resources */,
 				8B1C4E3B2B867FCA00917E26 /* Assets.xcassets in Resources */,
 			);
@@ -197,8 +226,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B1C4E392B867FC800917E26 /* ContentView.swift in Sources */,
+				8B1C4E572B86925500917E26 /* WelcomeView.swift in Sources */,
 				8B1C4E372B867FC800917E26 /* ShaurmaFoodApp.swift in Sources */,
 				8B1C4E492B86824700917E26 /* Color.swift in Sources */,
+				8B1C4E612B869C9300917E26 /* Font.swift in Sources */,
+				8B1C4E5B2B86970A00917E26 /* CustomButton.swift in Sources */,
 				8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */,
 				8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */,
 			);

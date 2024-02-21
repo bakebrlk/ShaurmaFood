@@ -16,7 +16,7 @@ struct SplashScreenView: View {
     var body: some View {
         
         if isActive {
-            ContentView()
+            WelcomeView()
         }else {
             GeometryReader{ make in
                 VStack {
@@ -25,7 +25,7 @@ struct SplashScreenView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(width: make.size.width/3, height: make.size.width/3)
-                        CustomText.getText(text: "Shaurma Food", size: 46)
+                        CustomText.getText(text: "Shaurma Food", size: 46, font: .Black)
                             .foregroundColor(.white)
                     }
                     .scaleEffect(size)

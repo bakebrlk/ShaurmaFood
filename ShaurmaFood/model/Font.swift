@@ -9,21 +9,21 @@ import SwiftUI
 
 struct Font{
     
-    struct Montserrat {
-        static let ThinItalic = "Montserrat-ThinItalic"
-        static let Thin = "Montserrat-Thin"
-        static let SemiBoldItalic = "Montserrat-SemiBoldItalic"
-        static let SemiBold = "Montserrat-SemiBold"
-        static let MediumItalic = "Montserrat-MediumItalic"
-        static let Medium = "Montserrat-Medium"
-        static let LightItalic = "Montserrat-LightItalic"
-        static let ExtraLight = "Montserrat-ExtraLight"
-        static let ExtraBoldItalic = "Montserrat-ExtraBoldItalic"
-        static let ExtraBold = "Montserrat-ExtraBold"
-        static let BoldItalic = "Montserrat-BoldItalic"
-        static let Bold = "Montserrat-Bold"
-        static let BlackItalic = "Montserrat-BlackItalic"
-        static let Black = "Montserrat-Black"
-        static let Regular = "Montserrat-Regular"
+    enum Montserrat: String {
+        case ThinItalic = "Montserrat-ThinItalic"
+        case Thin = "Montserrat-Thin"
+        case SemiBoldItalic = "Montserrat-SemiBoldItalic"
+        case SemiBold = "Montserrat-SemiBold"
+        case MediumItalic = "Montserrat-MediumItalic"
+        case Medium = "Montserrat-Medium"
+        case LightItalic = "Montserrat-LightItalic"
+        case ExtraLight = "Montserrat-ExtraLight"
+        case ExtraBoldItalic = "Montserrat-ExtraBoldItalic"
+        case ExtraBold = "Montserrat-ExtraBold"
+        case BoldItalic = "Montserrat-BoldItalic"
+        case Bold = "Montserrat-Bold"
+        case BlackItalic = "Montserrat-BlackItalic"
+        case Black = "Montserrat-Black"
+        case Regular = "Montserrat-Regular"
     }
 }
