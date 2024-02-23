@@ -24,6 +24,8 @@
 		8B1C4E652B86B59700917E26 /* VerifyMobileCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E642B86B59700917E26 /* VerifyMobileCodeView.swift */; };
 		8B4073652B87B7EC00266145 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4073642B87B7EC00266145 /* CustomTextField.swift */; };
 		8B76F72A2B895EBB00095B48 /* RegisterUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76F7292B895EBB00095B48 /* RegisterUserView.swift */; };
+		8B76F72C2B8966CD00095B48 /* AccessLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76F72B2B8966CD00095B48 /* AccessLocationView.swift */; };
+		8B76F72E2B89677C00095B48 /* location1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B76F72D2B89677C00095B48 /* location1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		8B1C4E642B86B59700917E26 /* VerifyMobileCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyMobileCodeView.swift; sourceTree = "<group>"; };
 		8B4073642B87B7EC00266145 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		8B76F7292B895EBB00095B48 /* RegisterUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserView.swift; sourceTree = "<group>"; };
+		8B76F72B2B8966CD00095B48 /* AccessLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessLocationView.swift; sourceTree = "<group>"; };
+		8B76F72D2B89677C00095B48 /* location1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,7 @@
 				8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */,
 				8B1C4E642B86B59700917E26 /* VerifyMobileCodeView.swift */,
 				8B76F7292B895EBB00095B48 /* RegisterUserView.swift */,
+				8B76F72B2B8966CD00095B48 /* AccessLocationView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 		8B1C4E5F2B869B5F00917E26 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				8B76F72D2B89677C00095B48 /* location1.png */,
 				8B1C4E582B8692BA00917E26 /* welcome.png */,
 				8B1C4E502B868B1900917E26 /* logo.png */,
 			);
@@ -226,6 +232,7 @@
 				8B1C4E512B868B1900917E26 /* logo.png in Resources */,
 				8B1C4E592B8692BA00917E26 /* welcome.png in Resources */,
 				8B1C4E3E2B867FCA00917E26 /* Preview Assets.xcassets in Resources */,
+				8B76F72E2B89677C00095B48 /* location1.png in Resources */,
 				8B1C4E3B2B867FCA00917E26 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +253,7 @@
 				8B1C4E612B869C9300917E26 /* Font.swift in Sources */,
 				8B1C4E5B2B86970A00917E26 /* CustomButton.swift in Sources */,
 				8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */,
+				8B76F72C2B8966CD00095B48 /* AccessLocationView.swift in Sources */,
 				8B1C4E632B86AABB00917E26 /* EnterMobileView.swift in Sources */,
 				8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */,
 				8B4073652B87B7EC00266145 /* CustomTextField.swift in Sources */,
