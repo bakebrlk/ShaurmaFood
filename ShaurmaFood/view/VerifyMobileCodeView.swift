@@ -46,6 +46,7 @@ struct VerifyMobileCodeView: View {
                     
                     CustomButton.btn(text: "Continue", size: 18, color: CustomColor.brightRed.opacity(otp ? 1: 0.6), action: actionForContinueBtn(), width: .infinity, height: make.size.height/12)
                         .padding()
+                        .disabled(!otp)
                     
                     HStack{
                         retryInfo
