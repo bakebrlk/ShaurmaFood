@@ -11,7 +11,7 @@ import SwiftUI
 struct ShaurmaFoodApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()  
+            VerifyMobileCodeView("fda")
         }
     }
 }
