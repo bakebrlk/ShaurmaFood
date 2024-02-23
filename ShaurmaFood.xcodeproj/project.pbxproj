@@ -22,7 +22,8 @@
 		8B1C4E612B869C9300917E26 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E602B869C9300917E26 /* Font.swift */; };
 		8B1C4E632B86AABB00917E26 /* EnterMobileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */; };
 		8B1C4E652B86B59700917E26 /* VerifyMobileCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C4E642B86B59700917E26 /* VerifyMobileCodeView.swift */; };
-		8B4073652B87B7EC00266145 /* VerifyTextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4073642B87B7EC00266145 /* VerifyTextFieldModel.swift */; };
+		8B4073652B87B7EC00266145 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4073642B87B7EC00266145 /* CustomTextField.swift */; };
+		8B76F72A2B895EBB00095B48 /* RegisterUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B76F7292B895EBB00095B48 /* RegisterUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +44,8 @@
 		8B1C4E602B869C9300917E26 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterMobileView.swift; sourceTree = "<group>"; };
 		8B1C4E642B86B59700917E26 /* VerifyMobileCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyMobileCodeView.swift; sourceTree = "<group>"; };
-		8B4073642B87B7EC00266145 /* VerifyTextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyTextFieldModel.swift; sourceTree = "<group>"; };
+		8B4073642B87B7EC00266145 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		8B76F7292B895EBB00095B48 /* RegisterUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				8B1C4E562B86925500917E26 /* WelcomeView.swift */,
 				8B1C4E622B86AABB00917E26 /* EnterMobileView.swift */,
 				8B1C4E642B86B59700917E26 /* VerifyMobileCodeView.swift */,
+				8B76F7292B895EBB00095B48 /* RegisterUserView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -123,7 +126,7 @@
 				8B1C4E542B868CFF00917E26 /* CustomText.swift */,
 				8B1C4E5A2B86970A00917E26 /* CustomButton.swift */,
 				8B1C4E602B869C9300917E26 /* Font.swift */,
-				8B4073642B87B7EC00266145 /* VerifyTextFieldModel.swift */,
+				8B4073642B87B7EC00266145 /* CustomTextField.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B76F72A2B895EBB00095B48 /* RegisterUserView.swift in Sources */,
 				8B1C4E652B86B59700917E26 /* VerifyMobileCodeView.swift in Sources */,
 				8B1C4E392B867FC800917E26 /* ContentView.swift in Sources */,
 				8B1C4E572B86925500917E26 /* WelcomeView.swift in Sources */,
@@ -244,7 +248,7 @@
 				8B1C4E532B868B9D00917E26 /* SplashScreenView.swift in Sources */,
 				8B1C4E632B86AABB00917E26 /* EnterMobileView.swift in Sources */,
 				8B1C4E552B868CFF00917E26 /* CustomText.swift in Sources */,
-				8B4073652B87B7EC00266145 /* VerifyTextFieldModel.swift in Sources */,
+				8B4073652B87B7EC00266145 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
