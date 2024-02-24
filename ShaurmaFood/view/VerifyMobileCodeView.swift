@@ -44,7 +44,7 @@ struct VerifyMobileCodeView: View {
                         Spacer()
                     }
                     
-                    CustomButton.btn(text: "Continue", size: 18, color: CustomColor.brightRed.opacity(otp ? 1: 0.6), action: actionForContinueBtn(), width: .infinity, height: make.size.height/12)
+                    CustomButton.btn(text: "Continue", size: 18, color: CustomColor.brightRed.opacity(otp ? 1: 0.6), action: actionForContinueBtn, width: .infinity, height: make.size.height/12)
                         .padding()
                         .disabled(!otp)
                     

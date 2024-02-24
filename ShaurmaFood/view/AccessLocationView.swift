@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct AccessLocationView: View {
+    
+    @State private var showAlert = false
+    
     var body: some View {
         NavigationView {
             GeometryReader { make in
-                VStack{
-                    description
-                    logo
+                
+                ZStack{
+                    VStack{
+                        description
+                        logo
+                        
+                        btn(height: make.size.height/14)
+                    }
                     
-                    btn(height: make.size.height/14)
+                    if showAlert {
+                        CustomAlert(isPresented: $showAlert, width: make.size.width/1.3)
+                    }
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
             }
@@ -39,12 +49,26 @@ extension AccessLocationView {
     }
     
     private func btn(height: CGFloat) -> some View {
-        CustomButton.btn(text: "Allow access to location", size: 18, color: CustomColor.brightRed, action: actionBtn(), width: .infinity, height: height)
+        CustomButton.btn(text: "Allow access to location", size: 18, color: CustomColor.brightRed, action: actionBtn, width: .infinity, height: height)
             .padding()
+//            .alert("Hi", isPresented: $showAlert){
+//                Button("While using the app") {
+//                    print("While using the app")
+//                }
+//                Button("Only this time") {
+//                    print("Only this time")
+//                }
+//                Button("Don’t allow") {
+//                    showAlert = false
+//                }
+//            }message: {
+//                Text("Hello!")
+//                    .background(Color.black)
+//            }
     }
     
     private func actionBtn() {
-        
+        showAlert = true
     }
 }
 

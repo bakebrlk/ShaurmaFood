@@ -55,7 +55,7 @@ extension EnterMobileView {
     }
     
     private func btn(width: CGFloat, height: CGFloat) -> some  View {
-        CustomButton.btn(text: "Get OTP", size: 18, color: CustomColor.brightRed, action: actionForGetBtn(), width: width, height: height)
+        CustomButton.btn(text: "Get OTP", size: 18, color: CustomColor.brightRed, action: actionForGetBtn, width: width, height: height)
             .padding()
     }
     

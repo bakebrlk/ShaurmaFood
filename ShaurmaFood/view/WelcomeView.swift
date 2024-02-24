@@ -47,7 +47,7 @@ extension WelcomeView {
     }
     
     private func btn(width: CGFloat, height: CGFloat) -> some View {
-        CustomButton.btn(text: "Get Started", size: 18, color: CustomColor.darkRed, action: actionForStartBnt(), width: width, height: height)
+        CustomButton.btn(text: "Get Started", size: 18, color: CustomColor.darkRed, action: actionForStartBnt, width: width, height: height)
             .padding()
     }
     

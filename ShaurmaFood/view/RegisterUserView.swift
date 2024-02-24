@@ -42,7 +42,7 @@ struct RegisterUserView: View {
 extension RegisterUserView {
     
     private func btn(height: CGFloat) -> some View {
-        CustomButton.btn(text: "Confirm Details", size: 18, color:  CustomColor.brightRed.opacity(status ? 1 : 0.6), action: actionForBtn(), width: .infinity, height: height)
+        CustomButton.btn(text: "Confirm Details", size: 18, color:  CustomColor.brightRed.opacity(status ? 1 : 0.6), action: actionForBtn, width: .infinity, height: height)
             .padding()
             .disabled(!status)
     }

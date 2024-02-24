@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct CustomButton {
-    static func btn(text: String, size: CGFloat, color: Color, action: (), width: CGFloat, height: CGFloat) -> some View {
+    static func btn(text: String, size: CGFloat, color: Color, action: @escaping () -> Void, width: CGFloat, height: CGFloat) -> some View {
         Button {
-            action
+            action()
         } label: {
             CustomText.getText(text: text, size: size, font: .Regular)
                 .foregroundColor(.white)
